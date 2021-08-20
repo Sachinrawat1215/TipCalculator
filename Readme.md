@@ -1,6 +1,8 @@
-TipCalculator
+// TipCalculator
+
 #author -- Sachin Rawat 
-This website took data from user and calculate tip according to given input.
+
+// This website took data from user and calculate tip according to given input.
 
 changes to do:-
 
@@ -11,3 +13,4 @@ changes to do:-
 task completed:-
 
 1. set reset button functionality.
+2. tip amount and per person amount set to only 2 digit.

@@ -112,7 +112,7 @@ input[type=number] {
     margin: 10px 0 0;
 }
 
-.container .main-container .left #memError,
+.container .main-container .left #error,
 .container .main-container .left #tipTag{
     visibility: hidden;
 }
