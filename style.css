@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Space Mono', monospace;
-    user-select: none;
 }
 
 /* input arrows remove */
@@ -89,7 +88,7 @@ input[type=number] {
 }
 
 .container .main-container .left .per-box div{
-    padding: 7px 30px;
+    padding: 7px 10px;
     font-size: 24px;
     width: 130px;
     text-align: center;
@@ -97,12 +96,32 @@ input[type=number] {
     background-color: hsl(183, 100%, 15%);
     color: white;
     cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.container .main-container .left .per-box .tipPercent.active{
+    background-color: #9fe8df;
+    color: hsl(183, 100%, 15%);
 }
 
 .container .main-container .left .per-box div:hover{
     background-color: #9fe8df;
     color: hsl(183, 100%, 15%);
     transition: 0.6s ease;
+}
+
+.container .main-container .left .per-box #custom{
+    /* padding: 0; */
+    transition: 0s ease;
+}
+
+.container .main-container .left .per-box #custom label {
+    margin: 0;
+    padding: 3px 10px;
+}
+
+.container .main-container .left .per-box #custom #customInput{
+    display: none;
 }
 
 .container .main-container .left .tag{
@@ -115,6 +134,7 @@ input[type=number] {
 .container .main-container .left #error,
 .container .main-container .left #tipTag{
     visibility: hidden;
+    margin-bottom: 15px;
 }
 
 .container .main-container .left .per-box input{
